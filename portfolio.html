@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Scientist Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #1A1A40;
+            color: #FFFFFF;
+        }
+
+        header img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 5px solid #4AA1F3;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin: 0.5rem 0;
+            color: rgb(231, 227, 227);
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .social-links {
+            margin: 1rem 0;
+        }
+
+        .social-links a {
+            margin: 0 0.5rem;
+            color: #e8e8e8;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+
+        .social-links a:hover {
+            color: #0073e6;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 2rem auto;
+        }
+
+        .section-container {
+            flex: 1;
+            min-width: 45%;
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-container h2 {
+            font-size: 1.8rem;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .projects, .EDA, .certifications, .dashboards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+
+        .project, .eda, .certification, .dashboard {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 1rem;
+            background: #ebecec;
+            text-align: center;
+        }
+
+        .certifications img, .dashboards img {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .certifications img:hover, .dashboards img:hover {
+            transform: scale(1.05);
+            filter: brightness(1.2);
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+
+        .download-cv {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .download-cv a {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #0073e6;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .download-cv a:hover {
+            background: #005bb5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #f4f4f4;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="wasidkhan.jpeg" alt="Profile Picture">
+        <h1>WASID KHAN</h1>
+        <p>Data Scientist | Machine Learning Enthusiast | Storyteller</p>
+        <div class="social-links">
+            <a href="https://github.com/wasidkhan7" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/wasid-khan-234045282/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://medium.com/@wasidkhan123007" target="_blank"><i class="fab fa-medium"></i></a>
+            <br>
+            <a href="mailto:wasidkhan123007@gmail.com"><i class="fas fa-envelope"></i> wasidkhan123007@gmail.com</a>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <!-- Projects Section -->
+        <div class="section-container">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Cars Price Prediction Model</h3>
+                    <p>Car Price Prediction.</p>
+                    <a href="https://github.com/wasidkhan7/Car_Price_prediction_Project" target="_blank">View on GitHub</a>
+                </div>
+                <div class="project">
+                    <h3>Email SMS Spam Detection Model</h3>
+                    <p>Spam Detection.</p>
+                    <a href="https://github.com/wasidkhan7/Car_Price_prediction_Project" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- EDA Section -->
+        <div class="section-container">
+            <h2>EDA Samples</h2>
+            <div class="EDA">
+                <div class="eda">
+                    <h3>Amazon Sales EDA</h3>
+                    <p>Analysis of Amazon sales.</p>
+                    <a href="https://github.com/wasidkhan7/Car_Price_prediction_Project" target="_blank">View on GitHub</a>
+                </div>
+                <div class="eda">
+                    <h3>Email SMS Spam Detection EDA</h3>
+                    <p>Analysis of spam detection data.</p>
+                    <a href="https://github.com/wasidkhan7/Car_Price_prediction_Project" target="_blank">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <!-- Certifications Section -->
+        <div class="section-container">
+            <h2>Certifications</h2>
+            <div class="certifications">
+                <div class="certification">
+                    <a href="pythonSimplilearn.png" target="_blank">
+                        <img src="pythonSimplilearn.png" alt="Certification 1">
+                        <p>Python From SimpliLearn</p>
+                    </a>
+                </div>
+                <div class="certification">
+                    <a href="MLSimplilearn.png" target="_blank">
+                        <img src="MLSimplilearn.png" alt="Certification 2">
+                        <p>Machine Learning SimpliLearn</p>
+                    </a>
+                </div>
+                <div class="certification">
+                    <a href="DsSimpilearn.png" target="_blank">
+                        <img src="DsSimpilearn.png" alt="Certification 3">
+                        <p>Data Science with Python SimpliLearn</p>
+                    </a>
+                </div>
+
+                <div class="certification">
+                    <a href="12cert.png" target="_blank">
+                        <img src="12cert.png" alt="Certification 4">
+                        <p>IBM Datascience 12 Courses</p>
+                    </a>
+                </div>
+
+                <div class="certification">
+                    <a href="Mlspecial.png" target="_blank">
+                        <img src="Mlspecial.png" alt="Certification 5">
+                        <p>Supervised ML Sepecialization Standford</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- PowerBI Dashboards Section -->
+        <div class="section-container">
+            <h2>PowerBI Dashboards</h2>
+            <div class="dashboards">
+                <div class="dashboard">
+                    <img src="Hranalyticsdash.png" alt="Dashboard 1">
+                    <a href="Hranalyticsdash.png" target="_blank"><b>HR Analytics Dashboard</b></a>
+                </div>
+                <div class="dashboard">
+                    <img src="hranalyticspower.jpeg" alt="Dashboard 2">
+                    <a href="hranalyticspower.jpeg" target="_blank"><b>HR Dashboard</b></a>
+                </div>
+
+                <div class="dashboard">
+                    <img src="Hrdash.jpeg" alt="Dashboard 2">
+                    <a href="Hrdash.jpeg" target="_blank"><b>HR Analytics Dashboard</b></a>
+                </div>
+
+                <div class="dashboard">
+                    <img src="salesdashboard.png" alt="Dashboard 2">
+                    <a href="salesdashboard.png" target="_blank"><b>Sales Dashboard</b></a>
+                </div>
+
+                <div class="dashboard">
+                    <img src="supestoreSalesdashboard.png" alt="Dashboard 2">
+                    <a href="supestoreSalesdashboard.png" target="_blank"><b>Super_Store Sales Dashboard</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="download-cv">
+        <a href="cv.pdf" download>Download CV</a>
+    </div>
+
+    <footer>
+        &copy; 2025 Wasid Khan. All Rights Reserved.
+    </footer>
+</body>
+</html>
